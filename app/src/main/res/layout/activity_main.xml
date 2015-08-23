@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#0066FF"
+        android:text="@string/SubTitle"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/spotify_streamer"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startSpotifyStreamer"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/scores_app"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startScoreApp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/libary_app"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startLibaryApp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/build_it_bigger"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startBuildItBiggerApp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="@string/xyz_reader"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startXYZReaderApp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0D47A1"
+        android:text="@string/capstone_app"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"
+        android:onClick="startCapstoneApp"
+        />
+
+
+
+
+</LinearLayout>
